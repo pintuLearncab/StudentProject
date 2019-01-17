@@ -1,32 +1,96 @@
-.App {
+
+.header{
   text-align: center;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Gotham SSm A","Gotham SSm B",sans-serif;
+    font-size: 30px;
+    font-weight: 200;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.header-text{
+  padding-bottom: 20px;
+  margin-left: -13px;
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+label{
+  color:red;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+a{
+ color: orangered;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ui.form .field>label {
+  color:#656262;
+  font-weight: 500;
+}
+
+.ui.form .fields .field {
+  clear: both;
+  margin: 0;
+  margin-bottom: 10px;}
+
+  .ui.button{
+      background-color:orange;
+      color: white;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  /* .register-container{
+    background-image: url('./signup-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, rgb(30, 96, 154), rgb(36, 155, 91)); color: rgb(255, 255, 255); padding-top: 10px; padding-bottom: 10px; margin: 0px auto;
+  
+
+}  */
+.container1{
+  display:flex;
+  flex-direction: row;
 }
+
+/* .login-logo{
+  padding:30px 0;
+} */
+
+.left{
+  flex:4;
+}
+.right{
+  flex:6;
+}
+
+.input-field{
+margin-bottom:40px;
+}
+
+.ui.form .field {
+  clear: both;
+  margin: 2em 0px 2em;
+}
+
+.forgot-password{
+  padding:30px 0;
+  text-align: center
+}
+
+.forgot-password-container{
+  padding:30px 0;
+  
+}
+.Signup{
+  margin-left:45px;
+}
+
+.ui.basic.green.button{
+ 
+text-align: center;
+  padding: .78571429em 7.5em .78571429em;
+}
+
+
